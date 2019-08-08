@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>The Olive Branch</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
+  <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+  <a href="#" class="w3-bar-item w3-button">Home</a>
+  <a href="#" class="w3-bar-item w3-button">Personal</a>
+  <a href="#" class="w3-bar-item w3-button">Environmental</a>
+    <a href="#" class="w3-bar-item w3-button">Branch Out</a>
+      <a href="#" class="w3-bar-item w3-button">About Us</a>
+</div>
+
+<div class="w3-main" style="margin-left:200px">
+<div class="w3-green">
+  <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+  <div class="w3-container">
+    <h1>The Olive Branch</h1>
+  </div>
+</div>
+
+<div class="w3-container">
+
+</div>
+
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<style>
+body { background:#98e690;}
+</style>
+<style>
+slogan{
+  font-size:70 px;
+  font-family:'Comic Sans MS';
+  color:black;
+}
+mission{
+  border:5px;
+  border-style:solid;
+  border-color: green;
+  padding:1em;
+  font-size:14.5px;
+  font-family:'Comic Sans MS';
+}
+
+day{
+font-size:60 px;
+font-family:'Comic Sans MS';
+color:black;
+}
+
+b{
+font-size:10px;
+font-family:'Comic Sans MS';
+}
+</style>
+<center><img src=logo.png width="200px" height="200px"></center>
+<br>
+<h2> <center><slogan> Inform, Initiate, Inspire</center></slogan></h2>
+<br>
+<h3><center> <slogan>Our Mission Statement:</slogan></center></h3>
+<p> <object align=right><mission>To inspire Mount Olive to spread kindness and become environmentally friendly, mentally healthy, and physically
+  fit in order to show that anyone can make a difference in their community.
+</mission></object><br></p>
+<br>
+<center><p><day>There's something to celebrate everyday! Check out the National Holiday Calendar!</day></center></p>
+<center><iframe src="https://calendar.google.com/calendar/embed?src=5cnpbq3ceik9mkreohhr0i2doc%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></center>
+<center><h3><slogan>Follow us on Social Media!</center></h3></slogan>
+<center><a href="https://www.instagram.com/mtolivebranch/"><img src=insta.png width="50px" height="50px"></a></center>
+<center><a href="https://twitter.com/heros_mo"><img src=twitter.png width="50px" height="50px"></a></center>
+</body>
+</html>
