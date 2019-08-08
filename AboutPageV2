@@ -1,0 +1,100 @@
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <head>
+    <style>
+      body{
+        background-color:#03406b;
+        font-family:'Titillium Web',sans-serif;
+        color:lightgrey;
+      }
+      NameText {
+        font-size:30px;
+        font-weight:bold;
+      }
+      DescText {
+        font-size:20px;
+      }
+      MissionText {
+        font-size:40px;
+        font-weight:bolder;
+      }
+      MissionBorder {
+        border: 5px;
+        border-style:solid;
+        border-color:lightgrey;
+        padding:1em;
+        font-size:15.5px;
+      }
+      LinkFontFormatting {
+        color:lightgrey;
+        background-color:#03406b;
+      }
+    </style>
+    <body>
+      <div class="w3-sidebar w3-bar-block w3-collapse w3-card w3-animate-left" style="width:200px;" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>
+        <LinkFontFormatting><a href="sidebar.html" class="w3-bar-item w3-button">Home</a>
+          <a href="index2.html" class="w3-bar-item w3-button">Personal Health</a>
+          <a href="environmental.html" class="w3-bar-item w3-button">Environmental</a>
+          <a href="outreach.html" class="w3-bar-item w3-button">Branch Out</a>
+          <a href="AboutPage.html" class="w3-bar-item w3-button">About Us</a></LinkFontFormatting>
+      </div>
+
+      <div class="w3-main" style="margin-left:200px">
+        <div class="w3-white">
+          <button class="w3-button w3-teal w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+        <div class="w3-container">
+          <h1 style="font-weight:bolder; color:#03406b; font-size:60px; padding-top:37px;">ABOUT OUR DEVELOPER TEAM</h1>
+          <br><br>
+        </div>
+      </div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+
+    <br>
+    <center> <img src="Logo.png" width=150px height=150px> </center>
+
+  <center>
+    <br><br><img src="SujayProfile.heic" width=130px height=200px>
+      <br><NameText> SUJAY SHANKAR </NameText>
+        <br><DescText> Sujay Shankar is a senior in high school who wants to go on to major in Astrophysics. <br> He has a 2<sup>nd</sup> degree black belt in Tae Kwon Do, and worked on the page that you are looking at right now. </DescText>
+
+    <br><br><img src="JessProfile.jpg" width=150px height=200px>
+      <br><NameText> JESS JOBBINS </NameText>
+        <br><DescText> Jess Jobbins is a sophomore in high school who wants to go on to major in Physical Therapy. <br> She works as a farmhand, and worked on the groups social media accounts. </DescText>
+
+    <br><br><img src="CarenProfile.jpg" width=140px height=200px>
+      <br><NameText> CAREN HANA </NameText>
+        <br><DescText> Caren Hana is a junior in high school who wants to go on to major in Computer Science. <br> She was born and brought up in Egypt, and worked on the "Personal" page of this website. </DescText>
+
+    <br><br><img src="ShanaProfile.jpg" width=140px height=200px>
+      <br><NameText> SHANA SOYFER </NameText>
+        <br><DescText> Shana Soyfer is a sophomore in high school who wants to go on to major in Economics. <br> She tutors underprivileged students, and worked on the "Branch Out" page of this website. </DescText>
+
+    <br><br><img src="HenitaProfile.jpg" width=145px height=200px>
+      <br><NameText> HENITA LAWRENCE </NameText>
+        <br><DescText> Henita Lawrence is a sophomore in high school who wants to go on to major in Computer Science or do the Pre-Med track. <br> She helps children sing in a church choir, and worked on the "Environmental" page of this website. </DescText>
+
+    <br><br><img src="LaraProfile.png" width=175px height=200px>
+      <br><NameText> LARA LEYSON </NameText>
+        <br><DescText> Lara Leyson is a senior in high school who wants to go on to major in Information Technology. <br> She is a Girl Scout, and worked on the "Home" page of this website. </DescText>
+    <br><br><br>
+  </center>
+
+    <center>
+      <MissionText> OUR MISSION </MissionText><br><br>
+      <MissionBorder> To inspire Mount Olive to spread kindness and become environmentally friendly, mentally healthy, and physically fit in order to show that anyone can make a difference in their community. </MissionBorder>
+    </center>
+  </body>
+  </head>
+</html>
